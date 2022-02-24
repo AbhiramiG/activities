@@ -1,0 +1,24 @@
+package program;
+
+import java.util.*;
+
+class Hshmp {
+	
+	public static void main(String[] args)
+    {
+                                           // Creating an empty HashMap
+        HashMap<String, Integer> hm = new HashMap<String, Integer>();
+  
+                                          // Mapping integer values to string keys
+        hm.put("John", 10);
+        hm.put("4", 04);
+        hm.put("Twenty", 20);
+        hm.put("Just", 25);
+        hm.put("early", 40);
+        hm.put("welcome", 2022);                                // Displaying the HashMap
+        System.out.println("Initial Mappings are: " + hm);
+  
+                                         // Displaying the size of the map
+        System.out.println("The size of the map is " + hm.size());
+    }
+}

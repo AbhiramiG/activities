@@ -1,0 +1,27 @@
+package program;
+import java.util.*;
+
+class ItHaset
+{
+	public static void main(String[] args) 
+	{         //creating empty HashSet
+		HashSet<String> h = new HashSet<String>();
+		      //adding elements into HashSet using add() method
+		h.add("science");
+		h.add("Tamil");
+		h.add("english");
+		h.add("social science");
+		h.add("maths");
+		     //iterating over HashSet------>using Iterator
+		Iterator<String> i=h.iterator();
+		          //hold true till last elements in the set
+		while(i.hasNext())
+		{
+			System.out.println("All subjects in class 4 = "+i.next());
+			
+		}
+	
+
+	}
+
+}
